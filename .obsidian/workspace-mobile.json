@@ -125,9 +125,17 @@
           "type": "git-history-view",
           "state": {}
         }
+      },
+      {
+        "id": "7d284abbe5c53328",
+        "type": "leaf",
+        "state": {
+          "type": "git-view",
+          "state": {}
+        }
       }
     ],
-    "currentTab": 3
+    "currentTab": 4
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -141,8 +149,11 @@
   },
   "active": "dabfa6377a995566",
   "lastOpenFiles": [
-    "background.png",
+    "pan.md",
+    "markdown-cheat-sheet.md",
+    "README.md",
     "Ebook Markdown.md",
+    "background.png",
     "assets/images/shiprock.jpg.md",
     "assets",
     "assets/images",

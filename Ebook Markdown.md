@@ -359,9 +359,42 @@ Untuk daftar lengkap entitas HTML yang tersedia, lihat halaman Wikipedia tentang
 Here is a simple flow chart:
 
 ```mermaid
-graph TD;
+flowchart TD;
     A-->B;
     A-->C;
     B-->D;
     C-->D;
 ```
+
+```mermaid
+graph LR
+A[Hard edge] -->B(Round edge)
+    B --> C{Decision}
+    C -->|One| D[Result one]
+    C -->|Two| E[Result two]
+```
+
+```mermaid
+classDiagram
+      Animal <|-- Duck
+      Animal <|-- Fish
+      Animal <|-- Zebra
+      Animal : +int age
+      Animal : +String gender
+      Animal: +isMammal()
+      Animal: +mate()
+      class Duck{
+          +String beakColor
+          +swim()
+          +quack()
+      }
+      class Fish{
+          -int sizeInFeet
+          -canEat()
+      }
+      class Zebra{
+          +bool is_wild
+          +run()
+      }
+```
+[pan](pan.md)
