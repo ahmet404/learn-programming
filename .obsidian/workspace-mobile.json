@@ -26,7 +26,7 @@
               "type": "markdown",
               "state": {
                 "file": "Ebook Markdown.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               }
             }
@@ -160,11 +160,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d00ad8ce866b8d7d",
+  "active": "20b93de3b29b7c7f",
   "lastOpenFiles": [
     "PAT.md",
-    "PAT.bak",
     "Ebook Markdown.md",
+    "PAT.bak",
     "pat",
     "pan.dat",
     "pan.txt",
