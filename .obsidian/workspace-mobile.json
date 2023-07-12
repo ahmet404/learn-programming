@@ -11,11 +11,10 @@
             "id": "dabfa6377a995566",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "Ebook Markdown.md",
-                "mode": "preview",
-                "source": true
+                "file": ".trash/markdown-cheat-sheet.md",
+                "staged": false
               }
             }
           }
@@ -85,7 +84,6 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Ebook Markdown.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +100,6 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Ebook Markdown.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -113,9 +110,7 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {
-            "file": "Ebook Markdown.md"
-          }
+          "state": {}
         }
       },
       {
@@ -147,12 +142,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dabfa6377a995566",
+  "active": "7d284abbe5c53328",
   "lastOpenFiles": [
-    "pan.md",
     "markdown-cheat-sheet.md",
-    "README.md",
+    "/markdown-cheat-sheet.md",
     "Ebook Markdown.md",
+    "pan.md",
+    "README.md",
     "background.png",
     "assets/images/shiprock.jpg.md",
     "assets",
