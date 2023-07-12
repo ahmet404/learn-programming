@@ -25,9 +25,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PAT.md",
-                "mode": "source",
-                "source": false
+                "file": "Ebook Markdown.md",
+                "mode": "preview",
+                "source": true
               }
             }
           }
@@ -98,7 +98,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "PAT.md",
+            "file": "Ebook Markdown.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "PAT.md",
+            "file": "Ebook Markdown.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -127,7 +127,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "PAT.md"
+            "file": "Ebook Markdown.md"
           }
         }
       },
@@ -162,9 +162,9 @@
   },
   "active": "d00ad8ce866b8d7d",
   "lastOpenFiles": [
+    "PAT.md",
     "PAT.bak",
     "Ebook Markdown.md",
-    "PAT.md",
     "pat",
     "pan.dat",
     "pan.txt",
