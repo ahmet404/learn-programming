@@ -8,5 +8,5 @@ Dokumentasi Pembelajaran Programming
 - [ ] Ebook Git dan Github
 - [ ] Ebook Vim
 - [ ] Ebook Matematika Diskrit
-- [ ] Struktur data dan Algoritma
-- [ ] C Programming
+- [ ] Ebook Struktur data dan Algoritma
+- [ ] Ebook Bahasa Pemrograman C Lengkap
