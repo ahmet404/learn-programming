@@ -10,5 +10,3 @@ Dokumentasi Pembelajaran Programming
 - [ ] Ebook Matematika Diskrit
 - [ ] Ebook Struktur data dan Algoritma
 - [ ] Ebook Bahasa Pemrograman C Lengkap
-
-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
