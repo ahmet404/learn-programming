@@ -4,6 +4,8 @@
 
 Dibuat oleh **John Gruber** pada tahun 2004 mengunakan bahasa perl dirancang untuk mempermudah menulis dan membaca dokumen berbasis web. 
 
+> Tujuan Desain utama untuk sintaks pemformatan Markdown adalah membuatnya semudah mungkin dibaca. Idenya adalah bahwa dokumen berformat Markdown harus dapat diterbitkan apa adanya, sebagai teks biasa, tanpa terlihat seperti telah ditandai dengan tag atau instruksi pemformatan.
+
 ### 1. Headings
 ```
 # Header 1

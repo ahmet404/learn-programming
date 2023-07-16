@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Ebook Git & Github.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -173,9 +173,9 @@
   },
   "active": "20b93de3b29b7c7f",
   "lastOpenFiles": [
-    "README.md",
     "Ebook Markdown.md",
     "Ebook Git & Github.md",
+    "README.md",
     "/README.md",
     "PAT.md",
     "testing markdown.md",
