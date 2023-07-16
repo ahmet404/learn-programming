@@ -6,5 +6,3 @@
 - Memungkinkan bekerja berkolaborasi dengan lebih baik.
 - Mengetahui siapa yang melakukan dan kapan sebuah perubahan terjadi.
 - Memungkinkan kita untuk kembali ke keadaan sebelum perubahan (checkout). 
-
-
