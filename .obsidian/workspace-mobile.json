@@ -26,13 +26,24 @@
               "type": "markdown",
               "state": {
                 "file": "Ebook Markdown.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               }
             }
+          },
+          {
+            "id": "c6193c2aeff22db5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ebook Git & Github.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -148,7 +159,7 @@
         }
       }
     ],
-    "currentTab": 4
+    "currentTab": 2
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -164,6 +175,8 @@
   "lastOpenFiles": [
     "PAT.md",
     "Ebook Markdown.md",
+    "Ebook Git & Github.md",
+    "testing markdown.md",
     "PAT.bak",
     "pat",
     "pan.dat",

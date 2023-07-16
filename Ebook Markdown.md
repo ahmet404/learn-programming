@@ -543,3 +543,10 @@ gitGraph commit commit branch develop checkout develop commit commit checkout ma
 requirementDiagram requirement test_req { id: 1 text: the test text. risk: high verifymethod: test } element test_entity { type: simulation } test_entity - satisfies -> test_req 
 ```
 ````
+
+### 17. Latex using Katex
+The *Gamma function* satisfying $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$ is via the Euler integral
+
+$$
+\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
+$$
