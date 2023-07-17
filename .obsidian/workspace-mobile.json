@@ -14,8 +14,8 @@
               "type": "markdown",
               "state": {
                 "file": "Ebook Git & Github.md",
-                "mode": "source",
-                "source": false
+                "mode": "preview",
+                "source": true
               }
             }
           },
@@ -173,6 +173,10 @@
   },
   "active": "dabfa6377a995566",
   "lastOpenFiles": [
+    "img",
+    "img/local.png",
+    "img/distributed.png",
+    "img/centralized.png",
     "Ebook Markdown.md",
     "Ebook Git & Github.md",
     "README.md",
