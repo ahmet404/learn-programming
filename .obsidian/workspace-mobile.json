@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Ebook Git & Github.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -171,7 +171,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "20b93de3b29b7c7f",
+  "active": "dabfa6377a995566",
   "lastOpenFiles": [
     "Ebook Markdown.md",
     "Ebook Git & Github.md",
