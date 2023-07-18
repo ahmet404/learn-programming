@@ -53,7 +53,7 @@ Berikut beberapa fungsi dari Version Control System:
 
 1.  **Local Version Control System**
     ![Gambar LVCs](img/local.png)
-    Local version control system adalah basis data lokal yang terletak di local computer, yang merupakan tempat setipa perubahan file disimpan sebagai patch. Setiap kumpulan patch hanya berisi perubahan yang dibuat pada file dari versi terakhirnya.
+    Local version control system adalah basis data lokal yang terletak di local computer, yang merupakan tempat setiap perubahan file disimpan sebagai patch. Setiap kumpulan patch hanya berisi perubahan yang dibuat pada file dari versi terakhirnya.
 
     Untuk melihat tampilan file pada saat tertentu, perlu menambahkan semua patch yang relevan ke file secara beururtan hingga saat itu.
 
