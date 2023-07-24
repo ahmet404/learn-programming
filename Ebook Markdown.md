@@ -1,3 +1,73 @@
+***
+#### Daftar Isi
+
+1. [Headings](#1.-headings)
+2. [Paragraph](#2.-paragraph)
+3. [Line Breaks](#3.-line-breaks)
+4. [Horizontal Rules](#4.-horizontal-rule)
+5. [Text Styling](#5.-text-styling)
+    - [Bold](#bold) 
+    - [Italic](#italic)
+    - [Bold & Italic](#bold-and-italic)
+    - [Marked Text](#marked-text)
+    - [Strikethrough Text](#strikethrough-text)
+    - [Subscript](#subscript)
+    - [Superscript](#superscript)
+    - [Underlined Text](#underline)
+6. [Blockquote](#6.-blockquote)
+    - [Blockquote with Paragraph](#blockquote-with-paragraph)
+    - [Nested Blockquote](#nested-blockquote)
+7. [Code](#7.-code)
+    - [Inline Code](#inline-code)
+    - [Code Block](#code-block)
+    - [Syntax Highlighting](#syntax-highlighting)
+8. [List](#8.-list)
+    - [Ordered List](#ordered-list)
+    - [Unordered List](#unordered-list)
+    - [Task List](#task-list)
+9. [Links](#9.-links)
+    - [Inline Links](#inline-links)
+    - [Internal Links](#internal-links)
+    - [Add Title](#add-title)
+    - [Direct Links](#direct-links)
+    - [Formatting Links](#formatting-links)
+    - [Reference Style Links](#reference-style-links)
+    - [Linking to Heading IDs](#linking-to-heading-id)
+    - [Link Target](#link-targets)
+10. [Images](#10.-images)
+    - [Embed image or file](#embed-image-or-file)
+    - [Add title](#add-title)
+    - [Linking Image](#linking-image)
+    - [Sized Image](#sized-image)
+    - [Image Captions](#image-captions)
+11. [Tables](#11.-tables)
+    - [Alignment](#alignment)
+    - [Formatting Text in Tables](#formatting-text-in-tables)
+    - [Table with list](#table-with-list)
+12. [Footnotes](#12.-footnotes)
+13. [Defenition List](#13.-defenition-list)
+14. [Abbrevations](#14.-abbrevations)
+15. [Emoji](#15.-emoji)
+16. [Diagrams](#16.-diagrams)
+    - [Squance Diagrams](#squance-diagrams)
+    - [Flowcharts](#flowcharts)
+    - [Class Diagrams](#class-diagrams)
+    - [State Diagrams](#state-diagrams)
+    - [Pie Charts](#pie-charts)
+17. [Latex with Katex](#17.-latex-with-katex)
+18. [Tips & Trik](#18.-tips-and-trik)
+    - [Admonitions](#--admonitions)
+    - [Color](#--color)
+    - [Comments](#--comments)
+    - [Escaping Characters](#--escaping-character)
+    - [Indentasi](#--indentasi)
+    - [Symbols](#--symbols)
+    - [Table Of Contents](#--table-of-content)
+    - [Text Alignment](#--text-alignment)
+    - [Video](#--video)
+***
+
+***
 ## Apa itu Markdown?
 ***
 **Markdown** adalah bahasa markup sederhana yang ringan menggunakan sintaks pemformatan teks biasa, dengan tujuan untuk dikonversi menjadi format HTML terstruktur.
@@ -43,47 +113,47 @@ Untuk membuat baris baru gunakan tag `<br>` atau gunakan 2 atau lebih spasi diak
 Untuk membuat garis horizontal, gunakan tiga atau lebih tanda bintang ( `***`), tanda pisah ( `---`), atau garis bawah ( `___`) pada satu baris.
 
 ### 5. Text Styling
-- Bold  
+- ##### Bold  
 `**Ini teks bold`  
 `__Ini juga teks bold__`
-- Italic  
+- ##### Italic  
 `*Ini teks italic*`  
 `_Ini juga teks italic_`
-- Bold and Italic  
+- ##### Bold and Italic  
 `***Ini teks bold italic***`  
 `___Ini juga teks bold italic___`  
 `__*Ini juga teks bold italic*__`  
 `**_Ini juga teks bold italic_**`
-- Marked text  
+- ##### Marked text  
 `==Teks yg ditandai==`  
-- Striketrough text  
+- ##### Striketrough text  
 `~~Teks yg dicoret~~`  
-- Subscript  
+- ##### Subscript  
 `H~2~O` or `H<sub>2</sub>O`  = H<sub>2</sub>O  
-- Superscript  
+- ##### Superscript  
 `X^2^` or `X<sup>2</sup>` = X<sup>2</sup>
-- Underline  
+- ##### Underline  
 `Text will be <ins>Underlined</ins>`
 
 ### 6. Blockquote
-- `> Menulis blockquote`  
-- Blockquote with paragraph
+`> Menulis blockquote`  
+- ##### Blockquote with paragraph
 ```
 > Blockquote pertama.
 > 
 > Blockquote kedua
 ```
-- Nested Blockquote
+- ##### Nested Blockquote
 ```
 > Blockquote pertama
 >> Blockquote nested
 ```
 ### 7. Code
-- Inline Code
+- ##### Inline Code
 ```
 `ping google.com`
 ```
-- Code Block
+- ##### Code Block
 ````
 ```
 git init
@@ -91,7 +161,7 @@ git add
 git commit
 ```
 ````
-- Syntax Highlighting
+- ##### Syntax Highlighting
 ````
 ```c
 #include <stdio.h>
@@ -106,7 +176,7 @@ int main(){
 > 📝**Note:** Untuk menampilkan triple backticks gunakan quadruple backticks. (\````)
 
 ### 8. Lists
-- Ordered List  
+- ##### Ordered List  
 Untuk membuat list berurut, tambahkan item baris dengan angka diikuti titik. Nomor tidak harus dalam urutan numerik, tetapi harus dimulai dari angka satu. Cth:
 ```
 1. Mobile Legends
@@ -119,7 +189,7 @@ Untuk membuat list berurut, tambahkan item baris dengan angka diikuti titik. Nom
 
 Akan menghasilkan daftar urutan yang sama.
 ```
-- Unordered List  
+- ##### Unordered List  
 Untuk membuat daftar tidak berurutan, tambahkan dashes (`-`), asterisk (`*`) atau plus sign (`+`) didepan item baris. Identasi satu tab untuk membuat nested list.  Cth:
 ```
 - Item satu
@@ -131,7 +201,7 @@ Untuk membuat daftar tidak berurutan, tambahkan dashes (`-`), asterisk (`*`) ata
 - 1969.\
 ```
 
-- Task List
+- ##### Task List
 ```
 - [ ] Incomplete list
 - [x] Complete list
@@ -139,17 +209,17 @@ Untuk membuat daftar tidak berurutan, tambahkan dashes (`-`), asterisk (`*`) ata
 
 ### 9. Links
 > 📝**Note:** Jika di alamat URL or nama file ada spasi gunakan %20 untuk menggabungkan spasi tersebut.
-- Inline link  
+- ##### Inline link  
 `[Github](https://github.com)`
-- Internal link  
+- ##### Internal link  
 `[Markdown](Ebook%20Markdown.md)`
-- Add tittle  
+- ##### Add tittle  
 `[Github](https://github.com "Share & collaborate")`
-- Direct links  
+- ##### Direct links  
 `https://github.com`  
 `<https://github.com>`  
 `<fake@mail.com>`  
-- Formatting links
+- ##### Formatting links
 ```
 I love supporting the **[EFF](https://eff.org)**
 
@@ -158,7 +228,7 @@ This is the *[Markdown Guide](https://www.markdownguide.org)*
 See section [`code`](#code)
 ```
 
-- Reference-style links  
+- ##### Reference-style links  
 	- First Part of the Links  
 		- `[Github Pages][2]`  
 		- `[Reddit Pages] [3]`  
@@ -170,31 +240,31 @@ See section [`code`](#code)
 		- `[3]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> "Hobbit lifestyles"`
 		- `[3]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> 'Hobbit lifestyles'`
 		- `[3]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> (Hobbit lifestyles)`
-- Linking to Heading ID
+- ##### Linking to Heading ID
 ```
 ## Belajar Markdown
 
 [Judul Besar](#belajar-markdown)
 ```
-- Link targets  
+- ##### Link targets  
 `<a href="https://www.markdownguide.org" target="_blank">Learn Markdown!</a>`
 
 ### 10. Images
-- Embed image or file  
+- ##### Embed image or file  
 `![Gambar Ku](background.png)`  
 `![[RootExplorer.apk]]`  
 
-- Add title  
+- ##### Add title  
 `![Background](background.png "Background keren untuk i3wm")`  
 
-- Linking image  
+- ##### Linking image  
 `[![Gambar Anime](https://i0.wp.com/dianisa.com/wp-content/uploads/2022/08/1.-Gambar-Anime-HD-Keren.jpg "Anime keren")](https://i0.wp.com/dianisa.com/wp-content/uploads/2022/08/1.-Gambar-Anime-HD-Keren.jpg)`
 
-- Sized image  
+- ##### Sized image  
 `![img|64x32](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png)`  
 or   
 `<img src="https://i0.wp.com/dianisa.com/wp-content/uploads/2022/08/1.-Gambar-Anime-HD-Keren.jpg" alt="Background Keren" width="200" height="150">`
-- Image captions
+- ##### Image captions
 ```
 <figure>
     <img src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png"
@@ -212,7 +282,7 @@ or
 | 2. | kali     | kali     |
 ```
 
-- Alignment  
+- ##### Alignment  
 ```
 |Left| Middle    | Right     | 
 |:---|:---------:|----------:| 
@@ -220,9 +290,8 @@ or
 | 2. | root      | root123   |
 ```
 
-- Formatting Text in Tables  
+- ##### Formatting Text in Tables  
 Hanya *links, inline code, line breaks dan list* formatting yg didukung dalam table.
-- Table with line break
 
 ```
 | Syntax      | Description |
@@ -231,7 +300,7 @@ Hanya *links, inline code, line breaks dan list* formatting yg didukung dalam ta
 | Paragraph   | First paragraph. <br><br> Second paragraph. |
 ```
 
-- Table with list
+- ##### Table with list
 ```
 | Syntax      | Description |
 | ----------- | ----------- |
@@ -277,89 +346,23 @@ The HTML specification is maintained by the W3C.
 - Emoji shortcodes  
 [List of emoji shortcodes ](https://gist.github.com/rxaviers/7360908)
 
-
-### 16. Tips and trik
-###### - Admonitions
-Untuk membuat peringatan gunakan *Blockquote, emoji dan emphasis.*
+### 16. Diagrams
+Untuk belajar lebih lanjut kunjungi situs [Diagram Mermaids JS](https://mermaid.js.org/syntax)
+- ##### Squance Diagrams
+```mermaid
+%% Example of sequence diagram
+  sequenceDiagram
+    Alice->>Bob: Hello Bob, how are you?
+    alt is sick
+    Bob->>Alice: Not so good :(
+    else is well
+    Bob->>Alice: Feeling fresh like a daisy
+    end
+    opt Extra response
+    Bob->>Alice: Thanks for asking
+    end
 ```
-> :warning: **Warning:** Do not push the big red button.
-
-> :memo: **Note:** Sunrises are beautiful.
-
-> :bulb: **Tip:** Remember to appreciate the little 
-```
-
-###### - Color
-`<p style="color:lime">text color</p>` 
-
-###### - Comments
-```
-[This is a commentarry]: #
-[Ini akan disembnyikan]: # Ini juga disembunyikan
-```
-
-###### - Escaping Character
-**Characters You Can Escape**
-
-You can use a backslash to escape the following characters.
-
-|Character|Name|
-|---|---|
-|`\`|backslash|
-|`|backtick (see also [escaping backticks in code](https://www.markdownguide.org/basic-syntax/#escaping-backticks))|
-|*|asterisk|
-|_|underscore|
-|{ }|curly braces|
-|[ ]|brackets|
-|< >|angle brackets|
-|( )|parentheses|
-|#|pound sign|
-|+|plus sign|
-|-|minus sign (hyphen)|
-|.|dot|
-|!|exclamation mark|
-|\||pipe (see also [escaping pipe in tables](https://www.markdownguide.org/extended-syntax/#escaping-pipe-characters-in-tables))|
-###### - Indent(tab)
-`&nbsp;&nbsp;&nbsp;&nbsp;This is the first sentence of my indented paragraph.`
-###### - Symbols
-Berikut sebagian daftar entitas HTML untuk simbol:
-
-- Hak Cipta (©) —`&copy;`
-- Merek dagang terdaftar (®) —`&reg;`
-- Merek Dagang (™) —`&trade;`
-- Euro (€) —`&euro;`
-- Panah kiri (←) —`&larr;`
-- Panah atas (↑) —`&uarr;`
-- Panah kanan (→) —`&rarr;`
-- Down arrow (↓) — `&darr;`
-- Gelar (°) —`&#176;`
-- Pi (π) —`&#960;`
-
-Untuk daftar lengkap entitas HTML yang tersedia, lihat halaman Wikipedia tentang [Entitas HTML](https://https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references)
-###### - Table Of Content
-```
-#### Table of Contents
-
-- [Underline](#underline)
-- [Indent](#indent)
-- [Center](#center)
-- [Color](#color)
-```
-
-###### - Text alignment
-```
-<p align="center">Text di tengah</p>
-<p align="justify">Text rata kanan kiri</p>`  
-<p align="right">Text rata kanan</p>
-```
-
-###### - Video
-```
-[![Less Than Jake — Scott Farcas Takes It On The Chin](https://img.youtube.com/vi/PYCxct2e0zI/0.jpg)](https://www.youtube.com/watch?v=PYCxct2e0zI)
-```
-
-###### - Diagrams
-- Squance Diagrams
+````
 ```mermaid
 %% Example of sequence diagram
   sequenceDiagram
@@ -374,14 +377,117 @@ Untuk daftar lengkap entitas HTML yang tersedia, lihat halaman Wikipedia tentang
     end
 ```
 
-- Flowcharts
+````
+
+- ##### Flowcharts
 Here is a simple flow chart:
 ```mermaid
 graph TD
 Start --> Stop
 ```
+`````
+```mermaid
+graph TD
+Start --> Stop
+```
+`````
 
-- Gantt Charts
+- ##### Class Diagrams
+```mermaid
+classDiagram
+      Animal <|-- Duck
+      Animal <|-- Fish
+      Animal <|-- Zebra
+      Animal : +int age
+      Animal : +String gender
+      Animal: +isMammal()
+      Animal: +mate()
+      class Duck{
+          +String beakColor
+          +swim()
+          +quack()
+      }
+      class Fish{
+          -int sizeInFeet
+          -canEat()
+      }
+      class Zebra{
+          +bool is_wild
+          +run()
+      }
+```
+`````
+```mermaid
+classDiagram
+      Animal <|-- Duck
+      Animal <|-- Fish
+      Animal <|-- Zebra
+      Animal : +int age
+      Animal : +String gender
+      Animal: +isMammal()
+      Animal: +mate()
+      class Duck{
+          +String beakColor
+          +swim()
+          +quack()
+      }
+      class Fish{
+          -int sizeInFeet
+          -canEat()
+      }
+      class Zebra{
+          +bool is_wild
+          +run()
+      }
+```
+
+`````
+
+- ##### State Diagrams
+```mermaid
+stateDiagram
+    [*] --> Still
+    Still --> [*]
+
+    Still --> Moving
+    Moving --> Still
+    Moving --> Crash
+    Crash --> [*]
+```
+`````
+```mermaid
+stateDiagram
+    [*] --> Still
+    Still --> [*]
+
+    Still --> Moving
+    Moving --> Still
+    Moving --> Crash
+    Crash --> [*]
+```
+
+`````
+
+- ##### Pie Charts
+```mermaid
+pie
+    title Pie Chart
+    "Dogs" : 386
+    "Cats" : 85
+    "Rats" : 150 
+```
+`````
+```mermaid
+pie
+    title Pie Chart
+    "Dogs" : 386
+    "Cats" : 85
+    "Rats" : 150 
+```
+
+`````
+
+- ##### Gantt Charts
 ````
 ```mermaid
 %% Example with selection of syntaxes
@@ -415,55 +521,9 @@ Start --> Stop
 ```
 ````
 
-- Class Diagrams
-```mermaid
-classDiagram
-      Animal <|-- Duck
-      Animal <|-- Fish
-      Animal <|-- Zebra
-      Animal : +int age
-      Animal : +String gender
-      Animal: +isMammal()
-      Animal: +mate()
-      class Duck{
-          +String beakColor
-          +swim()
-          +quack()
-      }
-      class Fish{
-          -int sizeInFeet
-          -canEat()
-      }
-      class Zebra{
-          +bool is_wild
-          +run()
-      }
-```
-
-- State Diagrams
-```mermaid
-stateDiagram
-    [*] --> Still
-    Still --> [*]
-
-    Still --> Moving
-    Moving --> Still
-    Moving --> Crash
-    Crash --> [*]
-```
-
-- Pie Charts
-```mermaid
-pie
-    title Pie Chart
-    "Dogs" : 386
-    "Cats" : 85
-    "Rats" : 150 
-```
 
 
-
-- C4 Diagrams
+- ##### C4 Diagrams
 
 ```mermaid
 C4Context
@@ -510,7 +570,7 @@ C4Context
       UpdateLayoutConfig($c4ShapeInRow="3", $c4BoundaryInRow="1")
 ```
 
-- Mindmap
+- ##### Mindmap
 ````gfm
 ```mermaid
 mindmap
@@ -533,14 +593,14 @@ mindmap
 ```
 ````
 
-- Gitgraph Diagrams
+- ##### Gitgraph Diagrams
 ````
 ```mermaid 
 gitGraph commit commit branch develop checkout develop commit commit checkout main merge develop commit commit 
 ```
 ````
 
-- Requirement Diagrams
+- ##### Requirement Diagrams
 ````gfm
 ```mermaid
 requirementDiagram requirement test_req { id: 1 text: the test text. risk: high verifymethod: test } element test_entity { type: simulation } test_entity - satisfies -> test_req 
@@ -553,3 +613,85 @@ The *Gamma function* satisfying $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$ i
 $$
 \Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
 $$
+
+
+### 18. Tips and trik
+###### - Admonitions
+Untuk membuat peringatan gunakan *Blockquote, emoji dan emphasis.*
+```
+> :warning: **Warning:** Do not push the big red button.
+
+> :memo: **Note:** Sunrises are beautiful.
+
+> :bulb: **Tip:** Remember to appreciate the little 
+```
+
+###### - Color
+`<p style="color:lime">text color</p>` 
+
+###### - Comments
+```
+[This is a commentarry]: #
+[Ini akan disembnyikan]: # Ini juga disembunyikan
+```
+
+###### - Escaping Character
+**Characters You Can Escape**
+
+You can use a backslash to escape the following characters.
+
+|Character|Name|
+|---|---|
+|`\`|backslash|
+|`|backtick (see also [escaping backticks in code](https://www.markdownguide.org/basic-syntax/#escaping-backticks))|
+|*|asterisk|
+|_|underscore|
+|{ }|curly braces|
+|[ ]|brackets|
+|< >|angle brackets|
+|( )|parentheses|
+|#|pound sign|
+|+|plus sign|
+|-|minus sign (hyphen)|
+|.|dot|
+|!|exclamation mark|
+|\||pipe (see also [escaping pipe in tables](https://www.markdownguide.org/extended-syntax/#escaping-pipe-characters-in-tables))|
+###### - Indentasi
+`&nbsp;&nbsp;&nbsp;&nbsp;This is the first sentence of my indented paragraph.`
+###### - Symbols
+Berikut sebagian daftar entitas HTML untuk simbol:
+
+- Hak Cipta (©) —`&copy;`
+- Merek dagang terdaftar (®) —`&reg;`
+- Merek Dagang (™) —`&trade;`
+- Euro (€) —`&euro;`
+- Panah kiri (←) —`&larr;`
+- Panah atas (↑) —`&uarr;`
+- Panah kanan (→) —`&rarr;`
+- Down arrow (↓) — `&darr;`
+- Gelar (°) —`&#176;`
+- Pi (π) —`&#960;`
+
+Untuk daftar lengkap entitas HTML yang tersedia, lihat halaman Wikipedia tentang [Entitas HTML](https://https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references)
+###### - Table Of Content
+```
+#### Table of Contents
+
+- [Underline](#underline)
+- [Indent](#indent)
+- [Center](#center)
+- [Color](#color)
+```
+
+###### - Text alignment
+```
+<p align="center">Text di tengah</p>
+<p align="justify">Text rata kanan kiri</p>`  
+<p align="right">Text rata kanan</p>
+```
+
+###### - Video
+```
+[![Less Than Jake — Scott Farcas Takes It On The Chin](https://img.youtube.com/vi/PYCxct2e0zI/0.jpg)](https://www.youtube.com/watch?v=PYCxct2e0zI)
+```
+
