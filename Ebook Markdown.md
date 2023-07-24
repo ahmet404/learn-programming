@@ -28,7 +28,8 @@ HEADER 2
 ```
 
 ### 2. Paragraph  
-Untuk membuat paragraf gunakan baris kosong untuk memisahkan satu atau beberapa baris teks.  Cth:
+Untuk membuat paragraf gunakan baris kosong untuk memisahkan satu atau beberapa baris teks.  
+Jika ingin membuat paragraf di dalam list tambahkan 1 tab / ident. Cth:
 ```
 Saya ingin belajar Markdown
 
