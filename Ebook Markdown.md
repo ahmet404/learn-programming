@@ -1,11 +1,11 @@
 ***
 #### Daftar Isi
 
-1. [Headings](#1.-headings)
-2. [Paragraph](#2.-paragraph)
-3. [Line Breaks](#3.-line-breaks)
-4. [Horizontal Rules](#4.-horizontal-rule)
-5. [Text Styling](#5.-text-styling)
+1. [Headings](#headings)
+2. [Paragraph](#paragraph)
+3. [Line Breaks](#line-breaks)
+4. [Horizontal Rules](#horizontal-rules)
+5. [Text Styling](#text-styling)
     - [Bold](#bold) 
     - [Italic](#italic)
     - [Bold & Italic](#bold-and-italic)
@@ -14,57 +14,57 @@
     - [Subscript](#subscript)
     - [Superscript](#superscript)
     - [Underlined Text](#underline)
-6. [Blockquote](#6.-blockquote)
+6. [Blockquote](#blockquote)
     - [Blockquote with Paragraph](#blockquote-with-paragraph)
     - [Nested Blockquote](#nested-blockquote)
-7. [Code](#7.-code)
+7. [Code](#code)
     - [Inline Code](#inline-code)
     - [Code Block](#code-block)
     - [Syntax Highlighting](#syntax-highlighting)
-8. [List](#8.-list)
+8. [List](#list)
     - [Ordered List](#ordered-list)
     - [Unordered List](#unordered-list)
     - [Task List](#task-list)
-9. [Links](#9.-links)
+9. [Links](#links)
     - [Inline Links](#inline-links)
     - [Internal Links](#internal-links)
-    - [Add Title](#add-title)
+    - [Add Title](#add-title-links)
     - [Direct Links](#direct-links)
     - [Formatting Links](#formatting-links)
     - [Reference Style Links](#reference-style-links)
     - [Linking to Heading IDs](#linking-to-heading-id)
     - [Link Target](#link-targets)
-10. [Images](#10.-images)
+10. [Images](#images)
     - [Embed image or file](#embed-image-or-file)
-    - [Add title](#add-title)
+    - [Add title](#add-title-image)
     - [Linking Image](#linking-image)
     - [Sized Image](#sized-image)
     - [Image Captions](#image-captions)
-11. [Tables](#11.-tables)
+11. [Tables](#tables)
     - [Alignment](#alignment)
     - [Formatting Text in Tables](#formatting-text-in-tables)
     - [Table with list](#table-with-list)
-12. [Footnotes](#12.-footnotes)
-13. [Defenition List](#13.-defenition-list)
-14. [Abbrevations](#14.-abbrevations)
-15. [Emoji](#15.-emoji)
-16. [Diagrams](#16.-diagrams)
+12. [Footnotes](#footnotes)
+13. [Defenition List](#defenition-list)
+14. [Abbrevations](#abbrevations)
+15. [Emoji](#emoji)
+16. [Diagrams](#diagrams)
     - [Squance Diagrams](#squance-diagrams)
     - [Flowcharts](#flowcharts)
     - [Class Diagrams](#class-diagrams)
     - [State Diagrams](#state-diagrams)
     - [Pie Charts](#pie-charts)
-17. [Latex with Katex](#17.-latex-with-katex)
-18. [Tips & Trik](#18.-tips-and-trik)
-    - [Admonitions](#--admonitions)
-    - [Color](#--color)
-    - [Comments](#--comments)
-    - [Escaping Characters](#--escaping-character)
-    - [Indentasi](#--indentasi)
-    - [Symbols](#--symbols)
-    - [Table Of Contents](#--table-of-content)
-    - [Text Alignment](#--text-alignment)
-    - [Video](#--video)
+17. [Latex with Katex](#latex-with-katex)
+18. [Tips & Trik](#tips-and-trik)
+    - [Admonitions](#admonitions)
+    - [Color](#color)
+    - [Comments](#comments)
+    - [Escaping Characters](#escaping-character)
+    - [Indentasi](#indentasi)
+    - [Symbols](#symbols)
+    - [Table Of Contents](#table-of-content)
+    - [Text Alignment](#text-alignment)
+    - [Video](#video)
 ***
 
 ***
@@ -76,7 +76,7 @@ Dibuat oleh **John Gruber** pada tahun 2004 mengunakan bahasa perl dirancang unt
 
 > Tujuan Desain utama untuk sintaks pemformatan Markdown adalah membuatnya semudah mungkin dibaca. Idenya adalah bahwa dokumen berformat Markdown harus dapat diterbitkan apa adanya, sebagai teks biasa, tanpa terlihat seperti telah ditandai dengan tag atau instruksi pemformatan.
 
-### 1. Headings
+1. ### Headings
 ```
 # Header 1
 ## Header 2
@@ -97,7 +97,7 @@ HEADER 2
 <h2 id="custom-id">Heading 2</h2>
 ```
 
-### 2. Paragraph  
+2. ### Paragraph  
 Untuk membuat paragraf gunakan baris kosong untuk memisahkan satu atau beberapa baris teks.  
 Jika ingin membuat paragraf di dalam list tambahkan 1 tab / ident. Cth:
 ```
@@ -106,13 +106,13 @@ Saya ingin belajar Markdown
 Saya ingn belajar Programming
 ```
 
-### 3. Line Breaks
+3. ### Line Breaks
 Untuk membuat baris baru gunakan tag `<br>` atau gunakan 2 atau lebih spasi diakhir baris lalu tekan enter.
 
-### 4. Horizontal Rules
+4. ### Horizontal Rules
 Untuk membuat garis horizontal, gunakan tiga atau lebih tanda bintang ( `***`), tanda pisah ( `---`), atau garis bawah ( `___`) pada satu baris.
 
-### 5. Text Styling
+5. ### Text Styling
 - ##### Bold  
 `**Ini teks bold`  
 `__Ini juga teks bold__`
@@ -126,7 +126,7 @@ Untuk membuat garis horizontal, gunakan tiga atau lebih tanda bintang ( `***`),
 `**_Ini juga teks bold italic_**`
 - ##### Marked text  
 `==Teks yg ditandai==`  
-- ##### Striketrough text  
+- ##### Strikethrough text  
 `~~Teks yg dicoret~~`  
 - ##### Subscript  
 `H~2~O` or `H<sub>2</sub>O`  = H<sub>2</sub>O  
@@ -135,7 +135,7 @@ Untuk membuat garis horizontal, gunakan tiga atau lebih tanda bintang ( `***`),
 - ##### Underline  
 `Text will be <ins>Underlined</ins>`
 
-### 6. Blockquote
+6. ### Blockquote
 `> Menulis blockquote`  
 - ##### Blockquote with paragraph
 ```
@@ -148,7 +148,7 @@ Untuk membuat garis horizontal, gunakan tiga atau lebih tanda bintang ( `***`),
 > Blockquote pertama
 >> Blockquote nested
 ```
-### 7. Code
+7. ### Code
 - ##### Inline Code
 ```
 `ping google.com`
@@ -175,7 +175,7 @@ int main(){
 
 > 📝**Note:** Untuk menampilkan triple backticks gunakan quadruple backticks. (\````)
 
-### 8. Lists
+8. ### List
 - ##### Ordered List  
 Untuk membuat list berurut, tambahkan item baris dengan angka diikuti titik. Nomor tidak harus dalam urutan numerik, tetapi harus dimulai dari angka satu. Cth:
 ```
@@ -207,13 +207,13 @@ Untuk membuat daftar tidak berurutan, tambahkan dashes (`-`), asterisk (`*`) ata
 - [x] Complete list
 ```
 
-### 9. Links
+9. ### Links
 > 📝**Note:** Jika di alamat URL or nama file ada spasi gunakan %20 untuk menggabungkan spasi tersebut.
-- ##### Inline link  
+- ##### Inline links  
 `[Github](https://github.com)`
-- ##### Internal link  
+- ##### Internal links  
 `[Markdown](Ebook%20Markdown.md)`
-- ##### Add tittle  
+- ##### Add title links
 `[Github](https://github.com "Share & collaborate")`
 - ##### Direct links  
 `https://github.com`  
@@ -249,12 +249,12 @@ See section [`code`](#code)
 - ##### Link targets  
 `<a href="https://www.markdownguide.org" target="_blank">Learn Markdown!</a>`
 
-### 10. Images
+10. ### Images
 - ##### Embed image or file  
 `![Gambar Ku](background.png)`  
 `![[RootExplorer.apk]]`  
 
-- ##### Add title  
+- ##### Add title image 
 `![Background](background.png "Background keren untuk i3wm")`  
 
 - ##### Linking image  
@@ -273,7 +273,7 @@ or
 </figure>
 ```
 
-### 11. Tables
+11. ### Tables
 [Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables)
 ```
 | No | Username | Password |
@@ -308,7 +308,7 @@ Hanya *links, inline code, line breaks dan list* formatting yg didukung dalam ta
 | List        | Here's a list! <ul><li>Item one.</li><li>Item two.</li></ul> |
 ```
 
- ### 12. Footnotes
+12. ### Footnotes
  
 ```
 Here's a simple footnote,[^1] and here's a longer one.[^bignote]
@@ -323,7 +323,7 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 
     Add as many paragraphs as you like.
 ```
-### 13. Defenition List
+13. ### Defenition List
 ```
 First Term
 : This is the definition of the first term.
@@ -333,20 +333,20 @@ Second Term
 : This is another definition of the second term.
 ```
 
-### 14. Abbrevations
+14. ### Abbrevations
 ```
 *[HTML]: Hyper Text Markup Language         
 
 The HTML specification is maintained by the W3C.
 ```
 
-### 15. Emoji
+15. ### Emoji
 - Emoji copy paste  
 [Emojipedia](https://emojipedia.org/)  
 - Emoji shortcodes  
 [List of emoji shortcodes ](https://gist.github.com/rxaviers/7360908)
 
-### 16. Diagrams
+16. ### Diagrams
 Untuk belajar lebih lanjut kunjungi situs [Diagram Mermaids JS](https://mermaid.js.org/syntax)
 - ##### Squance Diagrams
 ```mermaid
@@ -607,7 +607,7 @@ requirementDiagram requirement test_req { id: 1 text: the test text. risk: high 
 ```
 ````
 
-### 17. Latex using Katex
+17. ### Latex with Katex
 The *Gamma function* satisfying $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$ is via the Euler integral
 
 $$
@@ -615,8 +615,8 @@ $$
 $$
 
 
-### 18. Tips and trik
-###### - Admonitions
+18. ### Tips and trik
+- ###### Admonitions
 Untuk membuat peringatan gunakan *Blockquote, emoji dan emphasis.*
 ```
 > :warning: **Warning:** Do not push the big red button.
@@ -626,16 +626,16 @@ Untuk membuat peringatan gunakan *Blockquote, emoji dan emphasis.*
 > :bulb: **Tip:** Remember to appreciate the little 
 ```
 
-###### - Color
+- ###### Color
 `<p style="color:lime">text color</p>` 
 
-###### - Comments
+- ###### Comments
 ```
 [This is a commentarry]: #
 [Ini akan disembnyikan]: # Ini juga disembunyikan
 ```
 
-###### - Escaping Character
+- ###### Escaping Character
 **Characters You Can Escape**
 
 You can use a backslash to escape the following characters.
@@ -656,9 +656,9 @@ You can use a backslash to escape the following characters.
 |.|dot|
 |!|exclamation mark|
 |\||pipe (see also [escaping pipe in tables](https://www.markdownguide.org/extended-syntax/#escaping-pipe-characters-in-tables))|
-###### - Indentasi
+- ###### Indentasi
 `&nbsp;&nbsp;&nbsp;&nbsp;This is the first sentence of my indented paragraph.`
-###### - Symbols
+- ###### Symbols
 Berikut sebagian daftar entitas HTML untuk simbol:
 
 - Hak Cipta (©) —`&copy;`
@@ -673,7 +673,7 @@ Berikut sebagian daftar entitas HTML untuk simbol:
 - Pi (π) —`&#960;`
 
 Untuk daftar lengkap entitas HTML yang tersedia, lihat halaman Wikipedia tentang [Entitas HTML](https://https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references)
-###### - Table Of Content
+- ###### Table Of Content
 ```
 #### Table of Contents
 
@@ -683,14 +683,14 @@ Untuk daftar lengkap entitas HTML yang tersedia, lihat halaman Wikipedia tentang
 - [Color](#color)
 ```
 
-###### - Text alignment
+- ###### Text alignment
 ```
 <p align="center">Text di tengah</p>
 <p align="justify">Text rata kanan kiri</p>`  
 <p align="right">Text rata kanan</p>
 ```
 
-###### - Video
+- ###### Video
 ```
 [![Less Than Jake — Scott Farcas Takes It On The Chin](https://img.youtube.com/vi/PYCxct2e0zI/0.jpg)](https://www.youtube.com/watch?v=PYCxct2e0zI)
 ```
