@@ -5,7 +5,7 @@ Dokumentasi Pembelajaran Programming
 #### Repository ini akan berisi:
 
 - [x] Ebook Markdown
-- [ ] Ebook Git dan Github
+- [x] Ebook Git dan Github
 - [ ] Ebook Vim
 - [ ] Learn English Language
 - [ ] Ebook Matematika Diskrit
