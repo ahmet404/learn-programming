@@ -9,6 +9,7 @@ Dokumentasi Pembelajaran Programming versi ahmet404
 - [ ] Ebook Git dan Github
 - [ ] Praktek Git dan Github Lengkap
 - [ ] Ebook Vim
+- [ ] Perbaiki keymap di neovim
 - [ ] Learn English Language
 - [ ] Ebook Matematika Diskrit
 - [ ] Ebook Struktur data dan Algoritma

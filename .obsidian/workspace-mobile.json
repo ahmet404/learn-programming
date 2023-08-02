@@ -8,38 +8,14 @@
         "type": "tabs",
         "children": [
           {
-            "id": "dabfa6377a995566",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ebook Git & Github.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "d00ad8ce866b8d7d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ebook Markdown.md",
+                "file": "README.md",
                 "mode": "preview",
                 "source": true
-              }
-            }
-          },
-          {
-            "id": "c6193c2aeff22db5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ebook Git & Github.md",
-                "mode": "preview",
-                "source": false
               }
             }
           }
@@ -109,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Ebook Git & Github.md",
+            "file": "README.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -126,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Ebook Git & Github.md",
+            "file": "README.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -138,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Ebook Git & Github.md"
+            "file": "README.md"
           }
         }
       },
@@ -159,7 +135,7 @@
         }
       }
     ],
-    "currentTab": 2
+    "currentTab": 4
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -171,15 +147,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dabfa6377a995566",
+  "active": "d00ad8ce866b8d7d",
   "lastOpenFiles": [
+    "Ebook Markdown.md",
+    "README.md",
+    "Ebook Git & Github.md",
+    "README (1).md",
+    "Ebook Git & Github (1).md",
+    "Ebook Markdown (1).md",
     "img",
     "img/local.png",
     "img/distributed.png",
     "img/centralized.png",
-    "Ebook Markdown.md",
-    "Ebook Git & Github.md",
-    "README.md",
     "/README.md",
     "PAT.md",
     "testing markdown.md",
