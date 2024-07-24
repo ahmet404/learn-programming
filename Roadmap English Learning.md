@@ -36,6 +36,7 @@
 - Tenses
 - Punctiation (Tanda Baca)
 - Clause (Klausa)
-4. **Vocabulary Advanced**
-5. **Writing**
-6. **Listening and Speaking**
+- Jenis - Jenis Text
+1. **Vocabulary Advanced**
+2. **Writing**
+3. **Listening and Speaking**
